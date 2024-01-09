@@ -50,7 +50,7 @@ body
     grid-template:repeat(30,1fr) / repeat(30,1fr);
     /* background: #212837; */
     background-image: url(game\ board-01.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .play-board .food
@@ -88,6 +88,10 @@ body
     .game-details {
         font-size: 1rem;
         padding: 15px 27px;
+    }
+    .play-board {
+        background-image: none;
+        background-color: #8C6239;
     }
     .controls {
         display: flex;
